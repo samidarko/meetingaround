@@ -113,5 +113,5 @@ It is an interesting problem and I know my solution can be improved.
 I used an algorithm of O(n (Logn)^2) time complexity but there is also
 another one faster of O(n log n).
 
-There was another approach I wanted to test but didn't because of time reason is 
+There was another approach I wanted to test but didn't because of time reason which is 
 named [Locality-sensitive hashing](https://en.wikipedia.org/wiki/Locality-sensitive_hashing)
