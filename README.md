@@ -11,7 +11,7 @@ a “meeting.” Note that the coordinates can be assumed to be 1 unit = 1 meter
  
 ## What is a meeting
 I will assume that a meeting could happened if the two people where:
- * Are on the same floor
+ * On the same floor
  * In a distance less than 10 units
  * In a time frame of more or less 5 minutes
 
@@ -19,7 +19,7 @@ I will assume that a meeting could happened if the two people where:
 
 In this repository you will find my work in two parts
 
- * A data exploration with Python and iPython [Notebook](https://github.com/samidarko/meetingaround/blob/master/exploration.ipynb)
+ * A [data exploration](https://github.com/samidarko/meetingaround/blob/master/exploration.ipynb) with Python and iPython [Notebook](http://jupyter.org/)
  * A [Scala application](https://github.com/samidarko/meetingaround/blob/master/scala/Main.scala) that solves the problem in less than 1 second
  
 ## The files
