@@ -10,17 +10,17 @@ a “meeting.” Note that the coordinates can be assumed to be 1 unit = 1 meter
  * [Scala](http://scala-lang.org/download/install.html)
  
 ## What is a meeting
-I will assume that a meeting could happend if the two people where:
+I will assume that a meeting could happened if the two people where:
  * Are on the same floor
- * In a distance less than 5 units
- * In a timeframe of more or less 5 minutes
+ * In a distance less than 10 units
+ * In a time frame of more or less 5 minutes
 
 ## Content
 
 In this repository you will find my work in two parts
 
- * A data exploration with Python and iPython Notebook
- * A Scala application that solves the problem in less than 1 second
+ * A data exploration with Python and iPython [Notebook](https://github.com/samidarko/meetingaround/blob/master/exploration.ipynb)
+ * A [Scala application](https://github.com/samidarko/meetingaround/blob/master/scala/Main.scala) that solves the problem in less than 1 second
  
 ## The files
  * [Notebook](https://github.com/samidarko/meetingaround/blob/master/exploration.ipynb)
@@ -102,7 +102,7 @@ These two people met
 
 ## Todo
  * Add some command line arguments to the scala program
- * Add distance and timeframe for the meeting as arguments
+ * Add distance and time frame for the meeting as arguments
  * Add some unit tests
  * Use parallelism to make it faster
  
