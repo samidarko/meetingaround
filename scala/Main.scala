@@ -25,14 +25,7 @@ object Main {
   def makeKey(d: Date, f: Floor): Key = {
     val minutes = d.getMinutes
     val hours = if (d.getDate == 19) 0 else 24
-    minutes match {
-      case _ if minutes < 10 => (f, d.getHours + hours, 0)
-      case _ if minutes < 20 => (f, d.getHours + hours, 1)
-      case _ if minutes < 30 => (f, d.getHours + hours, 2)
-      case _ if minutes < 40 => (f, d.getHours + hours, 3)
-      case _ if minutes < 50 => (f, d.getHours + hours, 4)
-      case _ => (f, d.getHours + hours, 5 )
-    }
+    (f, d.getHours + hours, minutes / 10)
   }
 
   def updateMap(m: UMap, key: Key, x: X, y: Y) : UMap = {
